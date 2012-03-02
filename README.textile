@@ -1,1 +1,23 @@
+h1. Hanging With Friends Word Builder
+
 Searches the internal dictionary wordlist for the letters you supply as an argument.
+
+h2. Build
+
+@$ go get github.com/jbaikge/HangingWithFriends@
+
+or
+
+bc. $ git pull git://github.com/jbaikge/HangingWithFriends.git
+$ cd HangingWithFriends
+$ go install
+
+h2. Run
+
+bc. $ HangingWithFriends ytocirv
+6-letter words
+   1. civory
+   2. victor
+7-letter words
+   1. victory
+8-letter words
